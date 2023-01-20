@@ -4,8 +4,7 @@ import plotly.express as px
 import pandas as pd                        # pip install pandas
 import geopandas as gpd
 
-# incorporate data into app
-# Source - https://www.cdc.gov/nchs/pressroom/stats_of_the_states.htm
+
 df = pd.read_csv("rainfall.csv")
 print(df.head())
 
@@ -45,7 +44,6 @@ def update_graph(column_name):  # function arguments come from the component pro
 
     print(column_name)
     print(type(column_name))
-    # https://plotly.com/python/choropleth-maps/
     fig = px.choropleth(
         pd.json_normalize(india_states["features"])["properties.ST_NM"],
         locations="properties.ST_NM",
@@ -66,24 +64,9 @@ def update_graph(column_name):  # function arguments come from the component pro
         ).data
     )
     fig.update_geos(fitbounds="locations", visible=False)
-    # fig = px.choropleth(data_frame=df,
-    #                     # geojson="india_states.geojson",
-    #                     #featureidkey='properties.ST_NM',
-    #                     locations="STATE",
-    #                     locationmode='country names',
-    #                     scope="asia",
-    #                     height=600,
-    #                     color='STATE')
-    #                     # animation_frame='YEAR')
-
-    # fig=px.choropleth(data_frame=df, geojson="india_states.geojson", featureidkey='properties.ST_NM',locations='Area_Name',color=column_name,height=700)                    
-    #         #   animation_frame='Year',       
-    #         #   color='Rape_Cases_Reported',  
-    #         #   color_continuous_scale='Inferno', 
-    #         #  title='Rape cases across the states' ,  
+   
              
-        
-
+   
     return fig, '# '+column_name  # returned objects are assigned to the component property of the Output
 
 
