@@ -1,31 +1,34 @@
-State,Rainfall(mm)
-Andaman and Nicobar,2967
-Arunachal Pradesh,2782
-Assam,2818
-Meghalaya,2818
-Nagaland,1881
-Manipur,1881
-Mizoram,1881
-Tripura,1881
-West Bengal,1439
-Sikkim,2739
-Orissa,1489
-Bihar,1326
-Uttar Pradesh,1025
-Haryana,617
-Delhi,617
-Chandigarh,617
-Punjab,649
-Himachal Pradesh,1251
-Jammu and Kashmir,1011
-Rajasthan,313
-Madhya Pradesh,1017
-Gujarat,1107
-Goa,3005
-Maharashtra,1034
-Andhra Pradesh,961
-Tamil Nadu,998
-Pondicherry,998
-Karnataka,3456
-Kerala,3055
-Lakshadweep,1515
+State,Rainfall(mm),Average high temperature(degree celsius),Average low temperature(degree celsius)
+Andaman and Nicobar,2967,30,22
+Arunachal Pradesh,2782,33,24
+Assam,2818,28,18
+Meghalaya,2818,21,14
+Nagaland,1881,22,15
+Manipur,1881,29,22
+Mizoram,1881,28,23
+Tripura,1881,31,20
+West Bengal,1439,32,22
+Sikkim,2739,28,18
+Orissa,1489,33,22
+Bihar,1326,31,20
+Uttar Pradesh,1025,33,19
+Haryana,617,40,20
+Delhi,617,31,19
+Chandigarh,617,30,17
+Punjab,649,30,15
+Himachal Pradesh,1251,17,10
+Jammu and Kashmir,1011,20,7
+Rajasthan,313,45,20
+Madhya Pradesh,1017,32,19
+Gujarat,1107,34,21
+Goa,3005,32,23
+Maharashtra,1034,31,24
+Andhra Pradesh,961,33,24
+Tamil Nadu,998,33,24
+Pondicherry,998,33,24
+Karnataka,3456,29,19
+Kerala,3055,31,23
+Lakshadweep,1515,31,25
+Uttaranchal,1700,28,15
+Chhattisgarh,1255,33,21
+Jharkhand,1000,29,18
