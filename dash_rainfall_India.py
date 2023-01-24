@@ -59,7 +59,7 @@ def update_graph(column_name):  # function arguments come from the component pro
             geojson=india_states,
             featureidkey="properties.ST_NM",
             locationmode="geojson-id",
-            color="Rainfall(mm)",
+            color=column_name,
             scope="asia",
         ).data
     )
